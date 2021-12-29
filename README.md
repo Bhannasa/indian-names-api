@@ -14,13 +14,13 @@ Use `GET` method with URL [https://indian-names-api/name](https://indian-names-a
 >   {
 >       "fullname_indian_title": "sri. aditya singh",
 >       "fullname_english_title": "mr. aditya singh",
->       "fullname_without_title": "aditya singh",
+>       "fullname": "aditya singh",
 >       "firstname_indian_title": "sri. aditya",
 >       "firstname_english_title": "mr. aditya",
->       "firstname_without_title": "aditya",
+>       "firstname": "aditya",
 >       "lastname_indian_title": "sri. singh",
 >       "lastname_english_title": "mr. singh",
->       "lastname_without_title": "singh"
+>       "lastname": "singh"
 >   }
 > ]
 > ```
@@ -36,24 +36,24 @@ Use `GET` method with URL [https://indian-names-api/name](https://indian-names-a
 >   {
 >       "fullname_indian_title": "smt. chavi shukla",
 >       "fullname_english_title": "mrs. chavi shukla",
->       "fullname_without_title": "chavi shukla",
+>       "fullname": "chavi shukla",
 >       "firstname_indian_title": "smt. chavi",
 >       "firstname_english_title": "mrs. chavi",
->       "firstname_without_title": "chavi",
+>       "firstname": "chavi",
 >       "lastname_indian_title": "smt. shukla",
 >       "lastname_english_title": "mrs. shukla",
->       "lastname_without_title": "shukla"
+>       "lastname": "shukla"
 >   },
 >   {
 >       "fullname_indian_title": "sri. rakesh bansal",
 >       "fullname_english_title": "mr. rakesh bansal",
->       "fullname_without_title": "rakesh bansal",
+>       "fullname": "rakesh bansal",
 >       "firstname_indian_title": "sri. rakesh",
 >       "firstname_english_title": "mr. rakesh",
->       "firstname_without_title": "rakesh",
+>       "firstname": "rakesh",
 >       "lastname_indian_title": "sri. bansal",
 >       "lastname_english_title": "mr. bansal",
->       "lastname_without_title": "bansal"
+>       "lastname": "bansal"
 >   }
 > ]
 > ```
@@ -69,13 +69,13 @@ Use `GET` method with URL [https://indian-names-api/name](https://indian-names-a
 >   {
 >       "fullname_indian_title": "smt. yashodha yadav",
 >       "fullname_english_title": "mrs. yashodha yadav",
->       "fullname_without_title": "yashodha yadav",
+>       "fullname": "yashodha yadav",
 >       "firstname_indian_title": "smt. yashodha",
 >       "firstname_english_title": "mrs. yashodha",
->       "firstname_without_title": "yashodha",
+>       "firstname": "yashodha",
 >       "lastname_indian_title": "smt. yadav",
 >       "lastname_english_title": "mrs. yadav",
->       "lastname_without_title": "yadav"
+>       "lastname": "yadav"
 >   }
 > ]
 > ```
@@ -94,13 +94,13 @@ Use `GET` method with URL [https://indian-names-api/name](https://indian-names-a
 >   {
 >       "fullname_indian_title": "smt. geetanjali chakraborty",
 >       "fullname_english_title": "mrs. geetanjali chakraborty",
->       "fullname_without_title": "geetanjali chakraborty",
+>       "fullname": "geetanjali chakraborty",
 >       "firstname_indian_title": "smt. geetanjali",
 >       "firstname_english_title": "mrs. geetanjali",
->       "firstname_without_title": "geetanjali",
+>       "firstname": "geetanjali",
 >       "lastname_indian_title": "smt. chakraborty",
 >       "lastname_english_title": "mrs. chakraborty",
->       "lastname_without_title": "chakraborty"
+>       "lastname": "chakraborty"
 >   }
 > ]
 > ```

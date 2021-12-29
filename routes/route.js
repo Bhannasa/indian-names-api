@@ -63,13 +63,13 @@ router.get('/name',(req,res)=>{
             data.push({
                 "fullname_indian_title":name.nametitle.indian+" "+name.namef+" "+name.namel,
                 "fullname_english_title":name.nametitle.english+" "+name.namef+" "+name.namel,
-                "fullname_without_title":name.namef+" "+name.namel,
+                "fullname":name.namef+" "+name.namel,
                 "firstname_indian_title":name.nametitle.indian+" "+name.namef,
                 "firstname_english_title":name.nametitle.english+" "+name.namef,
-                "firstname_without_title":name.namef,
+                "firstname":name.namef,
                 "lastname_indian_title":name.nametitle.indian+" "+name.namel,
                 "lastname_english_title":name.nametitle.english+" "+name.namel,
-                "lastname_without_title":name.namel,
+                "lastname":name.namel,
             })
         })
         res.status(200).send(data);
