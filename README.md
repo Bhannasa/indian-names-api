@@ -1,9 +1,9 @@
 ### API that fetches random Indian names in response
 
-Use `GET` method with URL [https://indian-names-api/name](https://indian-names-api/name)
+Use `GET` method with URL [https://indian-names-api/name](https://indian-names-api.herokuapp.com/name)
 #
 ### Request parameters:
-> [?beg=a](https://indian-names-api/name?c=a)  
+> [?beg=a](https://indian-names-api.herokuapp.com/name?beg=a)  
 > Fetches the names beginning with given letters
 > - accepts character string for name to start with eg `?beg=abdr` will fetch names starting with a,b,d or r
 > - by default, fetches name beginning with any alphabet
@@ -25,7 +25,7 @@ Use `GET` method with URL [https://indian-names-api/name](https://indian-names-a
 > ]
 > ```
 > #
-> [?c=2](https://indian-names-api/name?c=2)  
+> [?c=2](https://indian-names-api.herokuapp.com/name?c=2)  
 > Count of random names to fetch, 
 > - accepts any positive integer
 > - default=1, max=117 (max depends upon the search query and 117 is the total of unique names).
@@ -58,7 +58,7 @@ Use `GET` method with URL [https://indian-names-api/name](https://indian-names-a
 > ]
 > ```
 > #
-> [?gen=f](https://indian-names-api/name?gen=f)  
+> [?gen=f](https://indian-names-api.herokuapp.com/name?gen=f)  
 > Fetches name of any specific gender
 > - accepts `m` or `f`, in other cases it will work as default
 > - default is gender-neutral
@@ -80,13 +80,12 @@ Use `GET` method with URL [https://indian-names-api/name](https://indian-names-a
 > ]
 > ```
 > #
-> [?beg=x&gen=f&strict](https://indian-names-api/name?beg=x&gen=f&strict)  
+> [?beg=x&gen=f&strict](https://indian-names-api.herokuapp.com/name?beg=x&gen=f&strict)  
 > If no more name matches the query string than by default it will fetch any other related name(not exact match) but to prevent this, use `&strict` to avoid false responses\
 > Example response:\
 > with `strict`
 > ```
-> [
-> ]
+> [ ]
 > ```
 > without `strict`
 > ```
