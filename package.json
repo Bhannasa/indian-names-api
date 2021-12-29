@@ -4,7 +4,8 @@
   "description": "This is an API which sends random Indian names as per requests",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "start": "node index.js"
   },
   "author": "bhannasa",
   "license": "ISC",
