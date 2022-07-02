@@ -1,6 +1,6 @@
 ### API that fetches random Indian names in response
 
-Use `GET` method with URL [https://indian-names-api/name](https://indian-names-api.herokuapp.com/name)
+Use `GET` method with URL [https://indian-names-api.herokuapp.com/name](https://indian-names-api.herokuapp.com/name)
 #
 ### Request parameters:
 > [?beg=a](https://indian-names-api.herokuapp.com/name?beg=a)  
